@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    display: grid;
+    height: 100vh; 
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;  
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    width: 500px;
+    height: 300px;
+}
+
+.wrapper > h1{
+    text-align: center;
+}
+
+.todo{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.active, .todo:hover{
+    background-color: #ccc;
+}
+
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
